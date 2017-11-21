@@ -27,7 +27,7 @@ Resources:
       AccessControl: PublicRead
       BucketName: ghl-demo-pix-resized
 
-  ImageBucketPolicy:
+  ResizedBucketPolicy:
     Type: AWS::S3::BucketPolicy
     Properties:
       Bucket: !Ref ResizedBucket
