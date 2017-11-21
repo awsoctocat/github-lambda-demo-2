@@ -50,7 +50,7 @@ Resources:
           Timeout: 300
           FunctionName: github-lambda-demo-production2
           #Role: arn:aws:iam::377117578606:role/github_role_lambda
-          #Role: arn:aws:iam::767259522535:role/github-role-lambda
+          Role: arn:aws:iam::767259522535:role/github-role-lambda
           Environment:
                   Variables:
                     BUCKET: Bucket
