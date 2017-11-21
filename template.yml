@@ -72,7 +72,7 @@ Resources:
           - s3
           - ''
           - ''
-          - lambda-demo-pix2
+          - ghl-demo-pix
 
   ImageBucket:
     Type: AWS::S3::Bucket
